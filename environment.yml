@@ -1,0 +1,14 @@
+name: opensky-dataimport
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - xarray
+  - tqdm
+  - requests
+  - bs4
+  - pyopensky
+  - netcdf4
