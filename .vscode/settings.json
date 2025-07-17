@@ -1,15 +1,23 @@
 {
     "cSpell.words": [
         "adsb",
+        "alts",
         "BADA",
+        "baro",
         "baroaltitude",
+        "Carree",
+        "ccrs",
+        "cfeature",
+        "contextily",
         "Dnom",
         "dslist",
         "DTRAIN",
+        "EGLL",
         "fnom",
         "fpaths",
         "icao",
         "irow",
+        "Mapnik",
         "Mdes",
         "MERRA",
         "mnom",
@@ -22,6 +30,8 @@
         "Ramer",
         "ROCD",
         "Vdes",
+        "vmax",
+        "vmin",
         "WDIR"
     ]
 }

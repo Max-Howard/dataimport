@@ -7,6 +7,9 @@ dependencies:
   - pandas
   - numpy
   - xarray
+  - matplotlib
+  - cartopy
+  - contextily
   - tqdm
   - requests
   - bs4
