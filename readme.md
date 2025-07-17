@@ -15,6 +15,7 @@ This project provides tools and scripts for importing and processing ADS-B and M
   - [Wind Data Download](#wind-data-download)
   - [Processed for ADS-B GS to TAS Conversion (Time-Retained)](#processed-for-ads-b-gs-to-tas-conversion-time-retained)
   - [For OpenAVEM (Time-Averaged)](#for-openavem-time-averaged)
+- [Data Visualisation](#data-visualisation)
 
 ## Features
 
@@ -103,3 +104,7 @@ For the wind file required by openAVEM a similar process is employed using `proc
 - **Aircraft Data** sourced from opensky is included in the repo. To get an up to date copy, download the database from opensky, and process it with ``clean_aircraft_db.py``.
 
 - **Airport Data** is sourced from the openAVEM repo and used as is in the data filtering step to ensure that flight data starts close to origin airport and ends near destination.
+
+## Data Visualisation
+
+`plot_flight.py` has some functions that can be used to visualise flight data for sanity checks or analaysis. Comparisons to flight paths taken by stock openAVEM can be made using the `compare_with_bada` function.
